@@ -64,6 +64,7 @@ main {
 p {
     padding: 10px;
     text-align: justify;
+    
 }
 
 abbr {
@@ -93,11 +94,6 @@ footer {
     background-color: white;
     
     border: 2px solid black;
- 
-    
-    
-   
-   
 }
     
 footer > p {
@@ -106,13 +102,14 @@ footer > p {
 }
 
 div {
-    display: flex;
+     display: flex;;
 
 
 }
 
 
 picture > img {
+    
     margin: 10px;
     width: 200px;
     height: 200px;
@@ -122,6 +119,10 @@ picture > img {
 
 
 
+aside {
+    text-align: justify;
+    padding-right: 10px;
+}
 
 
 
