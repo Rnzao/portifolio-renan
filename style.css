@@ -116,8 +116,11 @@ p > a:active{
 
 footer {
     background-color: white;
-
+    position: absolute;
+    width: 100%;
     border: 2px solid black;
+    left: 0;
+
 }
     
 footer > p {
