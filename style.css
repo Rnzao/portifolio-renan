@@ -1,7 +1,10 @@
 * {
     margin: 0;
+    
 }
-
+:root {
+ --color01: rgba(255, 255, 255, 0.507);
+}
 nav {
     background-color: whitesmoke;
     font-weight: bold;
@@ -31,9 +34,10 @@ nav p > a {
 }
 
 h1 {
-    margin: 5px;
-    padding: 4px;
+    background-color: var(--color01);
+    padding: 10px;
     font-size: 18px;
+    
 }
 
 nav p > a:hover {
@@ -44,7 +48,7 @@ nav p > a:hover {
 }
 
 nav p > a:active{
-    color: blue;
+    color: var(--color01);
 }
 
 body {
@@ -54,17 +58,32 @@ body {
 }
 
 main {
-    background-color: whitesmoke;
+   
     height: 100vh; 
     max-width: 800px;
     margin: auto;
     border-radius: 10px;
-  
+    background-image:url('img/./giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+main > p {
+    background-color: var(--color01);
+}
+
+.texto > p {
+    background-color: var(--color01);
 }
 
 p {
     padding: 10px;
     text-align: justify;
+  
+   font-weight: bold;
     
 }
 
@@ -75,7 +94,9 @@ abbr {
 p > a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+  
+    
+    
     
 }
 
@@ -88,18 +109,19 @@ p >a:hover{
 }
 
 p > a:active{
-    color: blue;
+    color: var(--color01);
 }
 
 footer {
     background-color: white;
-    
+
     border: 2px solid black;
 }
     
 footer > p {
     text-align: center;
     font-weight: bold;
+    padding: 3px;
 }
 
 div {
@@ -108,7 +130,9 @@ div {
 
 }
 
-
+picture{
+    background-color: var(--color01);
+}
 
 picture > img {
     
@@ -123,6 +147,7 @@ picture > img {
 
 aside {
     text-align: justify;
+    
     padding-right: 10px;
 }
 
