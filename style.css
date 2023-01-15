@@ -12,6 +12,7 @@ nav {
 }
 nav > a {
     padding: 3px;
+    max-width: 100%;
 }
 
 nav:hover {
