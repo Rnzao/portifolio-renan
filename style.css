@@ -8,12 +8,10 @@
 nav {
     background-color: whitesmoke;
     font-weight: bold;
-    
-    
+    padding: 10px
 }
 nav > a {
     padding: 3px;
-    
 }
 
 nav:hover {
@@ -32,7 +30,6 @@ nav p > a {
     text-decoration: none;
     padding-left: 10px;
     color:black;
-    
 }
 
 h1 {
@@ -55,6 +52,7 @@ nav p > a:active{
 
 body {
     background-image: url('img/./tumblr_n5xmvwgCYH1sso6sco1_500.webp');
+    max-height: 100vh;
   
     
     
