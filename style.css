@@ -53,13 +53,14 @@ nav p > a:active{
 
 body {
     background-image: url('img/./tumblr_n5xmvwgCYH1sso6sco1_500.webp');
+  
     
     
 }
 
 main {
-   
-    height: 100vh; 
+    
+    height: 550;
     max-width: 800px;
     margin: auto;
     border-radius: 10px;
@@ -67,6 +68,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
     
     
 }
